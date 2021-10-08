@@ -7,5 +7,11 @@ namespace CodeCompanion.EntityFrameworkCore.Extensions
             context.EnableHotSave();
             return context;
         }
+
+        public static TDbContext WithoutHotSave<TDbContext>(this TDbContext context) where TDbContext : CodeCompanionDbContext
+        {
+            context.DisableHotSave();
+            return context;
+        }
     }
 }

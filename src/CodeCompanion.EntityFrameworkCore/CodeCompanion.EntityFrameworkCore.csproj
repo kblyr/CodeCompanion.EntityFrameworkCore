@@ -6,10 +6,10 @@
 
     <!-- NuGet Package Info -->
     <PackageId>CodeCompanion.EntityFrameworkCore</PackageId>
-    <Version>1.0.1-pre3</Version>
+    <Version>1.0.3</Version>
     <Authors>John Josua Paderon</Authors>
-    <Authors>CodeCompanion.EntityFrameworkCore</Authors>
-    <Copyright>Copyright 2021 (C) John Josua Paderon</Copyright>
+    <Company>CodeCompanion.EntityFrameworkCore</Company>
+    <Copyright>Copyright 2021 (c) John Josua Paderon</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/kblyr/CodeCompanion.EntityFrameworkCore</RepositoryUrl>
   </PropertyGroup>
