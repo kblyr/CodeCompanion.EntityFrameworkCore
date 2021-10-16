@@ -22,12 +22,52 @@ namespace CodeCompanion.EntityFrameworkCore
 
         public void DisableHotSave() => isHotSaveEnabled = false;
 
-        public virtual int? TrySaveChanges() => isHotSaveEnabled ? SaveChanges() : null;
+        public virtual int? TrySaveChanges()
+        {
+            if (isHotSaveEnabled)
+            {
+                var result = SaveChanges();
+                DisableHotSave();
+                return result;
+            }
 
-        public virtual int? TrySaveChanges(bool acceptAllChangesOnSuccess) => isHotSaveEnabled ? SaveChanges(acceptAllChangesOnSuccess) : null;
+            return null;
+        }
 
-        public virtual async Task<int?> TrySaveChangesAsync(CancellationToken cancellationToken = default) => isHotSaveEnabled ? await SaveChangesAsync(cancellationToken) : null;
+        public virtual int? TrySaveChanges(bool acceptAllChangesOnSuccess)
+        {
+            if (isHotSaveEnabled)
+            {
+                var result = SaveChanges(acceptAllChangesOnSuccess);
+                DisableHotSave();
+                return result;
+            }
 
-        public virtual async Task<int?> TrySaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default) => isHotSaveEnabled ? await SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken) : null;
+            return null;
+        }
+
+        public virtual async Task<int?> TrySaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            if (isHotSaveEnabled)
+            {
+                var result = await SaveChangesAsync(cancellationToken);
+                DisableHotSave();
+                return result;
+            }
+
+            return null;
+        }
+
+        public virtual async Task<int?> TrySaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
+        {
+            if (isHotSaveEnabled)
+            {
+                var result = await SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
+                DisableHotSave();
+                return result;
+            }
+
+            return null;
+        }
     }
 }
