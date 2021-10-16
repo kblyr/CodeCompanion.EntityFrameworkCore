@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace CodeCompanion.EntityFrameworkCore.Extensions
+namespace CodeCompanion.EntityFrameworkCore
 {
     public static class EntityTypeBuilderExtensions
     {

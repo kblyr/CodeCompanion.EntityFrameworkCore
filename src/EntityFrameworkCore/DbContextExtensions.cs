@@ -1,4 +1,4 @@
-namespace CodeCompanion.EntityFrameworkCore.Extensions
+namespace CodeCompanion.EntityFrameworkCore
 {
     public static class DbContextExtensions 
     {
