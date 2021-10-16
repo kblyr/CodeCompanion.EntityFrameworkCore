@@ -1,17 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
 
     <!-- NuGet Package Info -->
     <PackageId>CodeCompanion.EntityFrameworkCore</PackageId>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Authors>John Josua Paderon</Authors>
     <Company>CodeCompanion.EntityFrameworkCore</Company>
     <Copyright>Copyright 2021 (c) John Josua Paderon</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/kblyr/CodeCompanion.EntityFrameworkCore</RepositoryUrl>
+    <Description></Description>
   </PropertyGroup>
 
   <ItemGroup>
