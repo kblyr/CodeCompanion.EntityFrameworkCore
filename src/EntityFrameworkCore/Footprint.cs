@@ -1,5 +1,3 @@
-using System;
-
 namespace CodeCompanion.EntityFrameworkCore
 {
     public struct Footprint
