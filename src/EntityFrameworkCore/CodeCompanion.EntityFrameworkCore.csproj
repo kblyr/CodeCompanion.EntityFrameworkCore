@@ -9,11 +9,11 @@
     <PackageId>CodeCompanion.EntityFrameworkCore</PackageId>
     <Version>1.0.4</Version>
     <Authors>John Josua Paderon</Authors>
-    <Company>CodeCompanion.EntityFrameworkCore</Company>
+    <Company>CodeCompanion Libraries</Company>
     <Copyright>Copyright 2021 (c) John Josua Paderon</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/kblyr/CodeCompanion.EntityFrameworkCore</RepositoryUrl>
-    <Description></Description>
+    <Description>CodeCompanion.EntityFrameworkCore</Description>
   </PropertyGroup>
 
   <ItemGroup>

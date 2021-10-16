@@ -1,1 +1,1 @@
-dotnet pack src/Exceptions --configuration Release --output ../.nuget_releases/
+dotnet pack src/EntityFrameworkCore --configuration Release --output ../.nuget_releases/
