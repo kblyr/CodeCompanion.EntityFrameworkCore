@@ -12,9 +12,9 @@ namespace CodeCompanion.EntityFrameworkCore
             return query;
         }
 
-        public static IQueryable<T> WhereIf<T>(this IQueryable<T> query, Expression<Func<T, bool>> predicateExp, Func<bool> conditionCheck)
+        public static IQueryable<T> WhereIf<T>(this IQueryable<T> query, Expression<Func<T, bool>> predicateExp, Func<bool> evaluate)
         {
-            if (conditionCheck())
+            if (evaluate())
                 return query.Where(predicateExp);
 
             return query;
