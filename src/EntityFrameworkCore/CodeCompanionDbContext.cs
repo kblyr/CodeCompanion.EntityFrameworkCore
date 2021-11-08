@@ -1,4 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
+using CodeCompanion.Auditing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
