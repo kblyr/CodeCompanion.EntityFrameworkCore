@@ -15,7 +15,7 @@
     <RepositoryUrl>https://github.com/kblyr/CodeCompanion.EntityFrameworkCore</RepositoryUrl>
     <Description>CodeCompanion.EntityFrameworkCore</Description>
     <PackageIconUrl>https://raw.githubusercontent.com/kblyr/CodeCompanion.EntityFrameworkCore/main/assets/logo.png</PackageIconUrl>
-    <PackageReleaseNotes>https://github.com/kblyr/CodeCompanion.EntityFrameworkCore/releases/tag/v1.0.7</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/kblyr/CodeCompanion.EntityFrameworkCore/releases/tag/v1.1.0</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
