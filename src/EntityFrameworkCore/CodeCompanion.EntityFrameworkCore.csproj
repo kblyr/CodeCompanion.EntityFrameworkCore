@@ -7,7 +7,7 @@
 
     <!-- NuGet Package Info -->
     <PackageId>CodeCompanion.EntityFrameworkCore</PackageId>
-    <Version>1.0.7</Version>
+    <Version>1.1.0</Version>
     <Authors>John Josua Paderon</Authors>
     <Company>CodeCompanion Libraries</Company>
     <Copyright>Copyright 2021 (c) John Josua Paderon</Copyright>
@@ -19,6 +19,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CodeCompanion.Auditing" Version="0.1.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
   </ItemGroup>
 

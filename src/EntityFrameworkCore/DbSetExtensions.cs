@@ -1,3 +1,4 @@
+using CodeCompanion.Auditing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
